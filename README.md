@@ -33,3 +33,17 @@ $ make db-create
 ```
 
 If you can do this, please access http://localhost:3000
+
+# Create master.key
+
+First step
+
+```
+$ rm -rf config/credentials.yml.enc
+```
+
+Last step
+
+```
+$ sudo EDITOR="vi" bin/rails credentials:edit
+```
