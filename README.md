@@ -9,12 +9,27 @@ This app uses Rails6
 Install yarn to install webpacker
 
 # How to use
+
+use make command
+
+check makefile out for details
+
 First step
+
 ```
-$ docker-compose build
+$ make build
 ```
 
 Second step
+
 ```
-$ docker-compose up
+$ make up
 ```
+
+Third step
+
+```
+$ make db-create
+```
+
+If you can do this, please access <a href="localhost:3000" target="_blank">localhost:3000</a>
