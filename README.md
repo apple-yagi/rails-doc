@@ -32,4 +32,4 @@ Third step
 $ make db-create
 ```
 
-If you can do this, please access <a href="localhost:3000" target="_blank">localhost:3000</a>
+If you can do this, please access http://localhost:3000
